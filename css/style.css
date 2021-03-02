@@ -1,0 +1,203 @@
+/* CSS for All */
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family:fantasy;
+  
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+  }
+
+
+  box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+    
+}
+
+
+
+
+
+
+  .clearfix {
+    clear: both;
+    float: none;
+  }
+  .img-responsive{
+    width: 100%;
+    
+    
+}
+.img-curve{
+    border-radius: 15px;
+  
+}
+
+  .text-right{
+      text-align:right;
+  }
+
+  .text-center{
+      text-align:center;
+  }
+
+  .text-white{
+    color:orange;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+.float-text{
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+
+.float-container{
+  position: relative;
+  
+  
+}
+
+  .btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+
+  .btn-primary{
+    background-color: #ff6b81;
+    color:yellowgreen;
+    cursor:pointer;
+  }
+
+  .btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+
+
+
+a {
+    color:green;
+    text-decoration: none;
+  }
+  a:hover {
+    color: silver;
+  }
+
+
+  /*    Nav Styling*/
+
+  .nav-bar{
+    
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  }
+.logo {
+  float: left;
+  width: 10%;
+
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.active{
+  color:blue;
+}
+.image-responsive{
+    width: 100%;
+}
+
+.icon{
+  color:black;
+}
+
+.name{
+display: flexbox;
+color: goldenrod;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+font-weight: bold;
+font-style: italic;
+}
+
+/*................Food-search stylin...........*/
+#mymenu{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  
+}
+
+#mymenu li a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+.food-search{
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 4% 0;
+  margin-top: 130px;
+  
+}
+
+.food-search input[type="search"]{
+  width: 60%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+/* CSS for Categories */
+.categories{
+  padding: 4% 0;
+  
+}
+
+.box-3{
+  width: 28%;
+  float: left;
+  margin: 2%;
+  
+  
+}
+
+.categories>.container{
+  background-color: chartreuse;
+}
+
+
+
+
+
+/* CSS for Food Menu */
+
