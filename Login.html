@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h4>Text input </h4>
+        Name : <input type="text" name="user_name" size="4" value="e.g. meher21" maxlength="10"><br>
+        Password : <input type="password" name="user_pass" ><br>
+        <h4> Radio button: name should be same</h4>
+        <input type="radio" name="r_gender"> Male
+        <input type="radio" name="r_gender"> Female
+        <input type="radio" name="r_gender" checked> Infant
+        <h4> Check box : name should be different</h4>
+        <input type="checkbox" name="c_male" checked> Male
+        <input type="checkbox" name="c_female"> Female
+        <input type="checkbox" name="c_infant"> Infant
+        <h4> Select box : drop-down</h4>
+        <select name="s_box">
+        <option value="s_male">Male</option>
+        <option value="s_female" selected>Female</option>
+        <option value="s_infant">Infant</option>
+        </select>
+        <h4> Select box : scroll</h4>
+        <select name="s_box" size="4" multiple>
+            <option value="s_male" selected>Male</option>
+            <option value="s_female" selected>Female</option>
+            <option value="s_infant">Infant 1</option>
+            <option value="s_infant" selected>Infant 2</option>
+            <option value="s_infant">Infant 3</option>
+            <option value="s_infant">Infant 4</option>
+            </select>
+            <h4> Text area</h4>
+            <textarea rows="10" cols="80" name="txt_area">Initial Text
+            x = 2
+            y = 3
+            </textarea> <!-- formatting work as pre -->
+            </form>
+</body>
+</html>
